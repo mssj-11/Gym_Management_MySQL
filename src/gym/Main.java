@@ -71,6 +71,11 @@ public class Main extends javax.swing.JFrame {
 
         btnAddTrainer.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         btnAddTrainer.setText("Add Trainer");
+        btnAddTrainer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddTrainerActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -119,6 +124,12 @@ public class Main extends javax.swing.JFrame {
     private void btnAddMemberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddMemberActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnAddMemberActionPerformed
+
+    private void btnAddTrainerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddTrainerActionPerformed
+        // TODO add your handling code here:
+        Trainer t = new Trainer();
+        t.setVisible(true);
+    }//GEN-LAST:event_btnAddTrainerActionPerformed
 
     /**
      * @param args the command line arguments
