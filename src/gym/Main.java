@@ -122,7 +122,8 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddMemberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddMemberActionPerformed
-        // TODO add your handling code here:
+        Member m = new Member();
+        m.setVisible(true);
     }//GEN-LAST:event_btnAddMemberActionPerformed
 
     private void btnAddTrainerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddTrainerActionPerformed

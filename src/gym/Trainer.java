@@ -195,6 +195,8 @@ public class Trainer extends javax.swing.JFrame {
                 .addGap(50, 50, 50))
         );
 
+        btnAddTrainer.setBackground(new java.awt.Color(0, 255, 51));
+        btnAddTrainer.setForeground(new java.awt.Color(255, 255, 255));
         btnAddTrainer.setText("Add");
         btnAddTrainer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -220,6 +222,8 @@ public class Trainer extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
+        btnEdit.setBackground(new java.awt.Color(0, 51, 204));
+        btnEdit.setForeground(new java.awt.Color(255, 255, 255));
         btnEdit.setText("Edit");
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,6 +231,8 @@ public class Trainer extends javax.swing.JFrame {
             }
         });
 
+        btnCancel.setBackground(new java.awt.Color(0, 0, 0));
+        btnCancel.setForeground(new java.awt.Color(255, 255, 255));
         btnCancel.setText("Cancel");
         btnCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,6 +240,8 @@ public class Trainer extends javax.swing.JFrame {
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(255, 0, 0));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
