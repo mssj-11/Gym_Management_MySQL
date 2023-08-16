@@ -34,6 +34,7 @@ public class Main extends javax.swing.JFrame {
         btnAddTrainer = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel1.setBackground(new java.awt.Color(0, 51, 204));
 
@@ -59,9 +60,12 @@ public class Main extends javax.swing.JFrame {
                 .addGap(27, 27, 27))
         );
 
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        btnAddMember.setBackground(new java.awt.Color(204, 204, 0));
         btnAddMember.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        btnAddMember.setForeground(new java.awt.Color(255, 255, 255));
         btnAddMember.setText("Add Member");
         btnAddMember.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,7 +73,9 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
+        btnAddTrainer.setBackground(new java.awt.Color(0, 255, 0));
         btnAddTrainer.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        btnAddTrainer.setForeground(new java.awt.Color(255, 255, 255));
         btnAddTrainer.setText("Add Trainer");
         btnAddTrainer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
