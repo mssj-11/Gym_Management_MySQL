@@ -63,7 +63,7 @@ public class Main extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        btnAddMember.setBackground(new java.awt.Color(0, 51, 204));
+        btnAddMember.setBackground(new java.awt.Color(0, 0, 0));
         btnAddMember.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         btnAddMember.setForeground(new java.awt.Color(255, 255, 255));
         btnAddMember.setText("Add Member");
@@ -73,7 +73,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btnAddTrainer.setBackground(new java.awt.Color(0, 0, 0));
+        btnAddTrainer.setBackground(new java.awt.Color(0, 51, 204));
         btnAddTrainer.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         btnAddTrainer.setForeground(new java.awt.Color(255, 255, 255));
         btnAddTrainer.setText("Add Trainer");
@@ -97,9 +97,9 @@ public class Main extends javax.swing.JFrame {
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(94, Short.MAX_VALUE)
+                .addGap(58, 58, 58)
                 .addComponent(btnAddTrainer, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addComponent(btnAddMember, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50))
         );

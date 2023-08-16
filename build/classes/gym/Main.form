@@ -103,7 +103,7 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btnAddMember" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnAddMember" max="32767" attributes="0"/>
                       <Component id="btnAddTrainer" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -113,9 +113,9 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="94" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                   <Component id="btnAddTrainer" min="-2" pref="57" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <EmptySpace pref="73" max="32767" attributes="0"/>
                   <Component id="btnAddMember" min="-2" pref="57" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
@@ -126,7 +126,7 @@
         <Component class="javax.swing.JButton" name="btnAddMember">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="33" red="0" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="24" style="1"/>
@@ -143,7 +143,7 @@
         <Component class="javax.swing.JButton" name="btnAddTrainer">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
+              <Color blue="cc" green="33" red="0" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="24" style="1"/>
